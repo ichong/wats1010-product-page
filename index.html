@@ -4,8 +4,10 @@
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <!-- TODO: Add proper head tag to provide a page description for search
-             engines. -->
+        <meta name="description" content="API Superstore provides fast access to APIs available online">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+        <link href='https://fonts.googleapis.com/css?family=PT+Sans+Narrow:400,700' rel='stylesheet' type='text/css'>
+        <link href='https://fonts.googleapis.com/css?family=Abril+Fatface' rel='stylesheet' type='text/css'>
         <title>API Superstore</title>
         <!-- Bootstrap CSS Framework -->
         <!-- You can remove the ``link`` tags below if you don't want to use
@@ -18,37 +20,111 @@
              "Javascript" on the Bootstrap documentation site. -->
         <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.css">
         <link rel="stylesheet" href="assets/bootstrap/css/bootstrap-theme.css">
+        <link rel="stylesheet" href="main.css">
         <!-- End Bootstrap CSS Framework -->
-
-        <!-- TODO: replace favicon, apple-touch-icon, and tile images to best
-             support bookmarking. -->
-        <link rel="apple-touch-icon" href="apple-touch-icon.png">
-        <link rel="favicon" href="favicon.ico">
-
+        <link rel="shortcut icon" type="image/x-icon" href="/api.ico">
+        
+        <script src="https://code.jquery.com/jquery-2.2.1.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
     </head>
+  
     <body>
-        <!-- Note: If you do not see a lamp icon in the heading below
-             when you view this file in a web browser, then there is an issue
-             with how Bootstrap is linked to this page. -->
-        <h1><span class="glyphicon glyphicon-lamp"></span> Hello World!</h1>
-        <!-- TODO: Populate this page with all the content you deem
-             necessary to create a compelling product page! -->
+    <header>
+      
+      
+<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+  <!-- Indicators -->
+  <ol class="carousel-indicators">
+    <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+    <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+    <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+  </ol>
 
-        <!-- TODO: Create an area to put the explainer video. -->
+  <!-- Wrapper for slides -->
+  <div class="carousel-inner" role="listbox">
+    <div class="item active">
+      <img src="assets/logos/api_superstore_logo_bg.png" alt="API Superstore" style="height: 200px;">
+      <div class="carousel-caption">
+        hello
+      </div>
+    </div>
+    <div class="item">
+      <img src="assets/logos/api_superstore_logo_bg.png" alt="API Superstore" style="height: 200px;">
+      <div class="carousel-caption">
+        image 2
+      </div>
+    </div>
+  </div>
 
-        <!-- TODO: Create an area to put the long product description. -->
-
-        <!-- TODO: Create an area to put customer testimonials. -->
-
-        <!-- TODO: Create an area to show features. -->
-
-        <!-- TODO: Create an area to show company contact info (phone,
-             location, etc.) -->
-
-        <!-- TODO: Create an area that allows users to Share links to the
-             page. -->
-
-        <!-- TODO: Create a call to action link to get users to sign up for the
-             service. -->
+  <!-- Controls -->
+  <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>      
+      
+ 
+      <h1> Click, Click, Code!</h1>	
+      <img src="assets/logos/api_superstore_logo_bg.png" alt="API Superstore" style="height: 200px;">
+      <ul class="nav nav-tabs">
+          <li> <a href=#account-login><span class="glyphicon glyphicon-user"></span>Login</a></li>
+          <li> <a href=#sign-up><span class="glyphicon glyphicon-star"></span>Join Now!</a></li>
+          <li> <a href=#product><span class="glyphicon glyphicon-list"></span>Features </a></li>
+          <li> <a href=#share><span class="glyphicon glyphicon-thumbs-up"></span>Share</a></li>
+      </ul> 
+      <section class="banner">
+      <h3 class="text-center"><big>Save time, get APIs! Start now.</big> </h3>
+      </section>
+    </header>
+    
+    <div id="about-us">
+    <section class="description" id="product-description">
+      <h2>About Us</h2>
+      <ul class="list-unstyled">
+        <li>Links to the best APIs from all over the web</li>
+        <li>Pay with credit, check, IOU, wire transfer, PayPal, or livestock trade!</li>
+        <li>Convenient catalog</li>
+        <li>Elegant shopping experience</li>
+      </ul>
+    </section>
+      
+    <section class="video" id="api-video">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/L48g1ZWLMdo" frameborder="0" allowfullscreen></iframe>
+    </section>
+    </div>
+      
+    <section class="testimonials" id="api-testimonials">
+      <h3>Testimonials</h3>
+        <p>“This is the best website ever!”- C.P. Yu, AmazingSite.com </p>
+        <p>“I have really admired the way the API Superstore team has created a truly divine interface for browsing all that information that’s out there online for free. For a low monthly fee, I’m able to more easily keep up with the churn of information that makes application development so difficult, and API Superstore makes my world so much happier! Please don’t stop the rocking!”- Amy Zon, Massive Anonymous Customer</p>
+        <p>“Once again, I’m blown away by the amazing offerings of the API Superstore. You really are SUPER!”- Clara Cache</p>
+    </section>
+      
+    <div class="signup" id="product-signup">
+      <h3>The API Superstore has partnered with API providers across the Web to bring you easy access to the hottest third party services and features. Get started today!</h3>
+      <a class="btn btn-primary btn-lg" href="#signup"> Sign up now! </a>
+    </div>
+      
+    <div class="links" id="share-links">
+    <ul class="list-unstyled">
+        <li><a href="http://www.facebook.com"><i class= "fa fa-facebook-official fa-3x"></i></a></li>
+        <li><a href="http://www.twitter.com"><i class="fa fa-twitter fa-3x"></i></a></li>
+        <li><a href="http://www.linkedin.com"><i class="fa fa-linkedin fa-3x"></i></a></li>
+    </ul>
+    </div>
+    
+    <footer>
+    <ul class="list-unstyled">
+        <li>API Superstore</li>
+        <li>206­.555­.1234</li>
+        <li>Seattle, Washington, USA</li>
+        <li><a href="mailto:info@apisuperstore.com">info@apisuperstore.com</a></li>
+    </footer>
+    
     </body>
-</html>
+    </html>
+    

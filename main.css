@@ -1,8 +1,54 @@
 /* Styles for Product Page Customization */
 /* NOTE: Do not edit the Bootstrap CSS files. */
 
-body {
-    padding-top: 30px;
-    padding-bottom: 20px;
-    color: green;
+html {
+	margin: 0;
+	padding: 0;
 }
+
+body { 
+	font-family: 'PT Sans Narrow', sans-serif;
+	line-height: 1.8;
+	color: #3B3B35; 
+	margin: 0; 
+	padding: 0;
+}
+
+header, h1, h2, h3 {
+  font-family: 'Abril Fatface', serif;
+}
+
+.banner, .links, .signup {
+  text-align: center;
+  background: #F2F2F2;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+#about-us .video {
+  margin: 100px;
+}
+
+#about-us .description {
+  float: right;
+  margin-right: 100px;
+}
+
+.btn {
+  margin-top: 20px;
+}
+
+.links li {
+  display: inline-block;
+}
+
+footer {
+  text-align: center;
+  padding: 50px;
+  margin-top: 20px;
+  background: #D5D4D3;
+}
+
+footer li {
+	display: inline-block;
+ } 
