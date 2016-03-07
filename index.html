@@ -5,6 +5,8 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta name="description" content="API Superstore provides fast access to APIs available online">
+        <meta name="keywords" content="API, API Superstore, APIs, Online Catalog">
+		    <meta name="author" content="Isa Chong">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
         <link href='https://fonts.googleapis.com/css?family=PT+Sans+Narrow:400,700' rel='stylesheet' type='text/css'>
         <link href='https://fonts.googleapis.com/css?family=Abril+Fatface' rel='stylesheet' type='text/css'>
@@ -30,9 +32,14 @@
   
     <body>
     <header>
+      <ul class="nav nav-tabs">
+          <li> <a href=#account-login><span class="glyphicon glyphicon-user"></span>Login</a></li>
+          <li> <a href=#sign-up><span class="glyphicon glyphicon-star"></span>Join Now!</a></li>
+          <li> <a href=#product><span class="glyphicon glyphicon-home"></span>About Us</a></li>
+          <li> <a href=#share><span class="glyphicon glyphicon-thumbs-up"></span>Share</a></li>
+      </ul> 
       
-      
-<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+      <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
   <!-- Indicators -->
   <ol class="carousel-indicators">
     <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
@@ -43,15 +50,21 @@
   <!-- Wrapper for slides -->
   <div class="carousel-inner" role="listbox">
     <div class="item active">
-      <img src="assets/logos/api_superstore_logo_bg.png" alt="API Superstore" style="height: 200px;">
+      <img src="desk.jpeg" alt="API Superstore" style="height: auto">
       <div class="carousel-caption">
-        hello
+        <img src="assets/logos/api_superstore_logo_bg.png" alt="API Superstore" style="height: 50px;">
       </div>
     </div>
     <div class="item">
-      <img src="assets/logos/api_superstore_logo_bg.png" alt="API Superstore" style="height: 200px;">
+      <img src="happy.jpeg" alt="API Testimonials" style="height: auto;">
       <div class="carousel-caption">
-        image 2
+       “Once again, I’m blown away by the amazing offerings of the API Superstore. You really are SUPER!”-Clara Cache
+      </div>
+    </div>
+      <div class="item">
+      <img src="desk-white.jpeg" alt="API Features" style="height: auto;">
+      <div class="carousel-caption">
+        Links to the best APIs from all over the web
       </div>
     </div>
   </div>
@@ -67,28 +80,20 @@
   </a>
 </div>      
       
- 
-      <h1> Click, Click, Code!</h1>	
-      <img src="assets/logos/api_superstore_logo_bg.png" alt="API Superstore" style="height: 200px;">
-      <ul class="nav nav-tabs">
-          <li> <a href=#account-login><span class="glyphicon glyphicon-user"></span>Login</a></li>
-          <li> <a href=#sign-up><span class="glyphicon glyphicon-star"></span>Join Now!</a></li>
-          <li> <a href=#product><span class="glyphicon glyphicon-list"></span>Features </a></li>
-          <li> <a href=#share><span class="glyphicon glyphicon-thumbs-up"></span>Share</a></li>
-      </ul> 
       <section class="banner">
-      <h3 class="text-center"><big>Save time, get APIs! Start now.</big> </h3>
+      <h1 class="text-center"><big>Save time, get APIs! Start now.</big> </h1>
       </section>
     </header>
     
     <div id="about-us">
     <section class="description" id="product-description">
-      <h2>About Us</h2>
+      <p>The API Superstore has partnered with API providers across the Web to bring you easy access to the hottest third party services and features.</p>
+      <h2>Features</h2>
       <ul class="list-unstyled">
-        <li>Links to the best APIs from all over the web</li>
-        <li>Pay with credit, check, IOU, wire transfer, PayPal, or livestock trade!</li>
-        <li>Convenient catalog</li>
-        <li>Elegant shopping experience</li>
+        <li><span class="glyphicon glyphicon-star"></span>Links to the best APIs from all over the web</li>
+        <li><span class="glyphicon glyphicon-star"></span>Pay with credit, check, IOU, wire transfer, PayPal, or livestock trade!</li>
+        <li><span class="glyphicon glyphicon-star"></span>Convenient catalog</li>
+        <li><span class="glyphicon glyphicon-star"></span>Elegant shopping experience</li>
       </ul>
     </section>
       
@@ -98,16 +103,26 @@
     </div>
       
     <section class="testimonials" id="api-testimonials">
-      <h3>Testimonials</h3>
-        <p>“This is the best website ever!”- C.P. Yu, AmazingSite.com </p>
-        <p>“I have really admired the way the API Superstore team has created a truly divine interface for browsing all that information that’s out there online for free. For a low monthly fee, I’m able to more easily keep up with the churn of information that makes application development so difficult, and API Superstore makes my world so much happier! Please don’t stop the rocking!”- Amy Zon, Massive Anonymous Customer</p>
-        <p>“Once again, I’m blown away by the amazing offerings of the API Superstore. You really are SUPER!”- Clara Cache</p>
+      <h2>Testimonials</h2>
+      <p>“This is the <strong>best website</strong> ever!”- C.P. Yu, AmazingSite.com </p>
+      <p>“I have really admired the way the API Superstore team has created <strong>a truly divine interface</strong> for browsing all that information that’s out there online for free. For a low monthly fee, I’m able to more easily keep up with the churn of information that makes application development so difficult, and API Superstore makes my world so much happier! Please don’t stop the rocking!”- Amy Zon, Massive Anonymous Customer</p>
+        <p>“Once again, I’m blown away by the amazing offerings of the API Superstore. <strong>You really are SUPER!</strong>”- Clara Cache</p>
     </section>
       
     <div class="signup" id="product-signup">
-      <h3>The API Superstore has partnered with API providers across the Web to bring you easy access to the hottest third party services and features. Get started today!</h3>
+      <ul class="list-unstyled">
+      <li>Click, Click, Code.</li>
+      </ul>
       <a class="btn btn-primary btn-lg" href="#signup"> Sign up now! </a>
     </div>
+    
+    <footer>
+    <ul class="list-unstyled">
+        <li>API Superstore</li>
+        <li>206.555.1234</li>
+        <li>Seattle, Washington, USA</li>
+        <li><a href="mailto:info@apisuperstore.com">info@apisuperstore.com</a></li>
+      </ul>
       
     <div class="links" id="share-links">
     <ul class="list-unstyled">
@@ -116,13 +131,6 @@
         <li><a href="http://www.linkedin.com"><i class="fa fa-linkedin fa-3x"></i></a></li>
     </ul>
     </div>
-    
-    <footer>
-    <ul class="list-unstyled">
-        <li>API Superstore</li>
-        <li>206­.555­.1234</li>
-        <li>Seattle, Washington, USA</li>
-        <li><a href="mailto:info@apisuperstore.com">info@apisuperstore.com</a></li>
     </footer>
     
     </body>
